@@ -9,6 +9,13 @@ from sqlalchemy import or_
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 UPLOAD_FOLDER = os.path.join(basedir, 'uploads')
+
+# --- 🔽🔽🔽 加入這兩行 🔽🔽🔽 ---
+# 如果 uploads 資料夾不存在，就建立它
+if not os.path.exists(UPLOAD_FOLDER):
+    os.makedirs(UPLOAD_FOLDER)
+# --- 🔼🔼🔼 加入結束 🔼🔼🔼 ---
+
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
 
 app = Flask(__name__)
@@ -199,3 +206,4 @@ with app.app_context():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
