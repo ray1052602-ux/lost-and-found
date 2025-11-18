@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登錄物品</title>
+    <style>
+        body { font-family: sans-serif; margin: 2em; }
+        nav { margin-bottom: 20px; }
+        nav a { margin-right: 15px; font-size: 1.2em; }
+        div { margin-bottom: 10px; }
+        label { display: inline-block; width: 100px; }
+        input, textarea { width: 250px; padding: 5px; }
+        button { padding: 10px 15px; }
+        /* Flash 訊息的樣式 */
+        .flash { padding: 10px; margin-bottom: 10px; border-radius: 5px; }
+        .flash.success { background-color: #d4edda; color: #155724; }
+        .flash.danger { background-color: #f8d7da; color: #721c24; }
+        .flash.info { background-color: #d1ecf1; color: #0c5460; }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        {% if current_user.is_authenticated %}
+            <a href="/">登錄物品</a>
+            <a href="/list">查看清單</a>
+            <a href="/logout">登出 ({{ current_user.username }})</a>
+        {% else %}
+            <a href="/list">查看清單</a>
+            <a href="/login">登入</a>
+            <a href="/register">註冊</a>
+        {% endif %}
+    </nav>
+    
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="flash {{ category }}">{{ message }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <h2>失物招領 - D登錄物品</h2>
+    
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <div>
+            <label for="item_name">物品名稱:</label>
+            <input type="text" id="item_name" name="item_name" required>
+        </div>
+        <div>
+            <label for="description">描述:</label>
+            <textarea id="description" name="description" rows="4"></textarea>
+        </div>
+        <div>
+            <label for="location">地點:</label>
+            <input type="text" id="location" name="location" required>
+        </div>
+        
+        <div>
+            <label for="item_image">上傳圖片:</label>
+            <input type="file" id="item_image" name="item_image" accept="image/*">
+        </div>
+
+        <div>
+            <button type="submit">提交登錄</button>
+        </div>
+    </form>
+</body>
+</html>
