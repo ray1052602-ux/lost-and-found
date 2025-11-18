@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3ffdf59-a74e-40bc-a5bf-429152ea3855" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automatic station/automatic station.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automatic station/新湖農場-氣象站(自動站)-微氣象監測系統-1751875813505.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automatic station/新湖農場-氣象站(自動站)-微氣象監測系統-1751875977487.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automatic station/新湖農場-氣象站(自動站)-微氣象監測系統-1751876088154.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automatic station/新湖農場-氣象站(自動站)-微氣象監測系統-1751876191838.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automatic station/新湖農場-氣象站(自動站)-微氣象監測系統-1751876260684.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automatic station/新湖農場-氣象站(自動站)-微氣象監測系統-1751876338424.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automatic station/新湖農場-氣象站(自動站)-微氣象監測系統-1751876378002.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automatic station/新湖農場-氣象站(自動站)-微氣象監測系統-1751876401850.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automatic station/新湖農場-氣象站(自動站)-微氣象監測系統-1751876480345.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automatic station/新湖農場-氣象站(自動站)-微氣象監測系統-1751876494825.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automatic station/新湖農場-氣象站(自動站)-微氣象監測系統-1751876504882.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automatic station/新湖農場-氣象站(自動站)-微氣象監測系統-1751876513862.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automatic station/新湖農場-氣象站(自動站)-微氣象監測系統-1751876550979.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automatic station/自動站每日整理彙總.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost and found/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost and found/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost and found/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost and found/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost and found/templates/submit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water accounting/LIST/ListProjectsTemp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water accounting/LTSM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water accounting/auto update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water accounting/current_weather.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water accounting/forecast.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water accounting/forecast.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water accounting/forecast1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water accounting/google weather.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water accounting/hydrus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water accounting/output.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water accounting/summer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water accounting/try.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water accounting/txttoexcel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water accounting/weather generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water accounting/~$output.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water accounting/灌溉比較.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/202406010630.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/202407010731.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/202408010831.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/202409010930.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/20241001031.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/202411011130.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/202412011231.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/202501010131.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/202502010228.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/202503010331.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/202504010430.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/202505010531.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/202506010630.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/新湖農場-氣象站(雲林)-微氣象監測系統-1761385859401.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/新湖農場-氣象站(雲林)-微氣象監測系統-1761385984968.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/新湖農場-氣象站(雲林)-微氣象監測系統-1761386308127.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/新湖農場-氣象站(雲林)-微氣象監測系統-1761386327871.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin farm/雲林每日整理彙總.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/202406010630.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/202407010731.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/202408010831.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/202409010930.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/20241001031.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/202411011130.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/202412011231.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/202501010131.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/202502010228.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/202503010331.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/202504010430.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/202505010531.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/202506010630.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/C0K430-2024-AirTemperature-day.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/C0K430-2024-MaxAirTemperature-day.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/C0K430-2024-MinAirTemperature-day.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/C0K430-2024-Precipitation-day.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/C0K430-2024-RelativeHumidity-day.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/C0K430-2024-WindSpeed,WindDirection-day.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/Maxtemp_by_Date.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/Mintemp_by_Date.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/WindSpeed_by_Date.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/climate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/yunlin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunlin/每日整理彙總.xlsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2zGTAfzyzzlVrZ36qKX3eJlOAJL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.1.executor": "Run",
+    "Python.LTSM.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.auto update.executor": "Run",
+    "Python.automatic station.executor": "Run",
+    "Python.climate.executor": "Run",
+    "Python.google weather.executor": "Run",
+    "Python.hydrus.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.summer.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.try.executor": "Run",
+    "Python.txttoexcel.executor": "Run",
+    "Python.weather generator.executor": "Run",
+    "Python.yulin.executor": "Run",
+    "Python.yunlin.executor": "Run",
+    "Python.灌溉比較.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Apppl\PycharmProjects\PythonProject\automatic station" />
+      <recent name="C:\Users\Apppl\PycharmProjects\PythonProject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.climate">
+    <configuration name="climate" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (PythonProject)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yunlin" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yunlin/climate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-9f8e2b94138c-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26094.141" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3ffdf59-a74e-40bc-a5bf-429152ea3855" name="Changes" comment="" />
+      <created>1751356270128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751356270128</updated>
+      <workItem from="1751356271511" duration="414000" />
+      <workItem from="1751602854061" duration="3396000" />
+      <workItem from="1751803780578" duration="8995000" />
+      <workItem from="1755780861673" duration="78000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automatic station/automatic station.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonProject$test.coverage" NAME="test Coverage Results" MODIFIED="1751808726526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$automatic_station.coverage" NAME="automatic station Coverage Results" MODIFIED="1751877961627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/automatic station" />
+    <SUITE FILE_PATH="coverage/PythonProject$1.coverage" NAME="1 Coverage Results" MODIFIED="1751356646194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/PythonProject$yulin.coverage" NAME="yulin Coverage Results" MODIFIED="1751870923497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

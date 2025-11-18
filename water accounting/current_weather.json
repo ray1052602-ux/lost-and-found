@@ -1,0 +1,96 @@
+{
+  "currentTime": "2025-10-17T05:16:31.692089618Z",
+  "timeZone": {
+    "id": "Asia/Taipei"
+  },
+  "isDaytime": true,
+  "weatherCondition": {
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_cloudy",
+    "description": {
+      "text": "Partly sunny",
+      "languageCode": "en"
+    },
+    "type": "PARTLY_CLOUDY"
+  },
+  "temperature": {
+    "degrees": 36.6,
+    "unit": "CELSIUS"
+  },
+  "feelsLikeTemperature": {
+    "degrees": 40.6,
+    "unit": "CELSIUS"
+  },
+  "dewPoint": {
+    "degrees": 20.3,
+    "unit": "CELSIUS"
+  },
+  "heatIndex": {
+    "degrees": 40.6,
+    "unit": "CELSIUS"
+  },
+  "windChill": {
+    "degrees": 36.6,
+    "unit": "CELSIUS"
+  },
+  "relativeHumidity": 38,
+  "uvIndex": 4,
+  "precipitation": {
+    "probability": {
+      "percent": 16,
+      "type": "RAIN"
+    },
+    "snowQpf": {
+      "quantity": 0,
+      "unit": "MILLIMETERS"
+    },
+    "qpf": {
+      "quantity": 0,
+      "unit": "MILLIMETERS"
+    }
+  },
+  "thunderstormProbability": 70,
+  "airPressure": {
+    "meanSeaLevelMillibars": 1012.08
+  },
+  "wind": {
+    "direction": {
+      "degrees": 290,
+      "cardinal": "WEST_NORTHWEST"
+    },
+    "speed": {
+      "value": 10,
+      "unit": "KILOMETERS_PER_HOUR"
+    },
+    "gust": {
+      "value": 19,
+      "unit": "KILOMETERS_PER_HOUR"
+    }
+  },
+  "visibility": {
+    "distance": 16,
+    "unit": "KILOMETERS"
+  },
+  "cloudCover": 61,
+  "currentConditionsHistory": {
+    "temperatureChange": {
+      "degrees": 1.5,
+      "unit": "CELSIUS"
+    },
+    "maxTemperature": {
+      "degrees": 36.8,
+      "unit": "CELSIUS"
+    },
+    "minTemperature": {
+      "degrees": 24.3,
+      "unit": "CELSIUS"
+    },
+    "snowQpf": {
+      "quantity": 0,
+      "unit": "MILLIMETERS"
+    },
+    "qpf": {
+      "quantity": 1.3818,
+      "unit": "MILLIMETERS"
+    }
+  }
+}

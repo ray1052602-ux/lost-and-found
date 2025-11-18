@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>物品清單</title>
+    <style>
+        body { font-family: sans-serif; margin: 2em; }
+        nav { margin-bottom: 20px; }
+        nav a { margin-right: 15px; font-size: 1.2em; }
+        .item { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; border-radius: 5px; }
+        .item h3 { margin-top: 0; }
+        .item img { max-width: 300px; max-height: 300px; border-radius: 5px; }
+        .item-author { font-size: 0.9em; color: #555; }
+        .search-form { margin-bottom: 20px; }
+        .search-form input[type="text"] { width: 300px; padding: 8px; font-size: 1em; }
+        .search-form button { padding: 8px 15px; font-size: 1em; }
+        .flash { padding: 10px; margin-bottom: 10px; border-radius: 5px; }
+        .flash.success { background-color: #d4edda; color: #155724; }
+        .flash.danger { background-color: #f8d7da; color: #721c24; }
+        .flash.info { background-color: #d1ecf1; color: #0c5460; }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        {% if current_user.is_authenticated %}
+            <a href="/">登錄物品</a>
+            <a href="/list">查看清單</a>
+            <a href="/logout">登出 ({{ current_user.username }})</a>
+        {% else %}
+            <a href="/list">查看清單</a>
+            <a href="/login">登入</a>
+            <a href="/register">註冊</a>
+        {% endif %}
+    </nav>
+    
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="flash {{ category }}">{{ message }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <div class.search-form">
+        <form action="/list" method="GET">
+            <input type="text" name="query" placeholder="輸入物品名稱、描述或地點..." 
+                   value="{{ search_query or '' }}">
+            <button type="submit">搜尋</button>
+        </form>
+    </div>
+
+
+    <h2>搜尋結果</h2>
+
+    {% for item in items %}
+        <div class="item">
+            <h3>{{ item.item_name }}</h3>
+            <p class="item-author">由 {{ item.author.username }} 發布</p>
+            <p><strong>地點:</strong> {{ item.location }}</p>
+            <p><strong>描述:</strong> {{ item.description }}</p>
+
+            {% if item.image_filename %}
+                <img src="{{ url_for('serve_upload', filename=item.image_filename) }}" 
+                     alt="{{ item.item_name }}">
+            {% endif %}
+        </div>
+    
+    {% else %}
+        {% if search_query %}
+            <p>找不到符合「{{ search_query }}」的物品。</p>
+        {% else %}
+            <p><strong>請輸入關鍵字（例如：錢包、雨傘...）開始搜尋。</strong></p>
+        {% endif %}
+    {% endfor %}
+
+</body>
+</html>
